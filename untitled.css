@@ -30,7 +30,7 @@ img {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 40px;
+  padding: 4rem;
 
 }
 .cards__item {
@@ -46,7 +46,7 @@ img {
   background-image:url(JSSPhone.png);
   background-color: #bdc3c7;
 
-
+  height: auto;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,11 +65,12 @@ img {
   .cards__item {
     width: 50%;
   }
+
    section {
+  
   background-image:url(JSSPhone.png);
   background-color: #bdc3c7;
-
-
+height: 84vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -164,7 +165,7 @@ span {
 section {
   background-image:url(JSS.png);
   background-color: #bdc3c7;
-
+  /*height: 90vh;*/
 
   background-position: center;
   background-size: cover;
@@ -182,6 +183,11 @@ section {
 footer {
   margin-top: 24px;
   padding: 10px;
+   bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    /*position: fixed;*/
 
 }
 .centered {
