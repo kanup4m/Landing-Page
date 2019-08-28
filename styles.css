@@ -1,0 +1,42 @@
+.navbar-brand {
+      padding: 20px;
+
+  }
+  .uk-margin-small-right {
+      margin-left: -10px;
+      text-align: left !important;
+      font-size: 40px;
+  }
+  .uk-navbar-right {
+      padding: 20px;
+
+  }
+  @media only screen and (max-width: 520px) {
+  body {
+    background-color: lightblue;
+  }
+  .uk-navbar-nav {
+    font-size: 10px;
+  }
+
+  .navbar-brand {
+      padding: 6px;
+      width: 40px;
+    height: 40px;
+
+  }
+.button {
+     width: 30px;
+     height: 30px;
+
+  }
+  .uk-navbar-dropdown {
+         width: 230px !important;
+    padding: 29px !important;
+
+  }
+}
+ .uk-navbar-dropdown {
+         width: 220px !important;
+
+  }
